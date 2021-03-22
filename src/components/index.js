@@ -1,3 +1,4 @@
+import BrandQuality from './BrandQuality/BrandQuality';
 import Brands from './Brands/Brands';
 import Categories from './Categories/Categories';
 import Navbar from './Navbar/Navbar';
@@ -10,6 +11,7 @@ const Home = () => {
             <NewProducts />
             <Categories />
             <Brands />
+            <BrandQuality />
         </>
     )
 }

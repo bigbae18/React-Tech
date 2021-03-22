@@ -40,8 +40,59 @@ const DesktopNavbar = () => {
                     </div>
                 </div>
 
-                <div>
-
+                
+            </div>
+            <div className="container-fluid navbar navbar-expand">
+                <div className="d-flex flex-row px-3">
+                    <div className="collapse navbar-collapse">
+                        <ul className="navbar-nav">
+                            <li className="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    SAFETY
+                                </a>
+                                <ul className="dropdown-menu" aria-labelledby="dropdown">
+                                    <li><a class="dropdown-item" href="#">Safety #1</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#">Safety #2</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#">Safety #3</a></li>
+                                </ul>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">JANITORIAL</a>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    TOOLS
+                                </a>
+                                <ul className="dropdown-menu" aria-labelledby="dropdown">
+                                    <li><a class="dropdown-item" href="#">Tools #1</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#">Tools #2</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#">Tools #3</a></li>
+                                </ul>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">WOODWORKING</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">GARDENING</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">OFFICE SUPPLIES</a>
+                            </li>
+                            <li className="nav-item ms-3">
+                                <a className="nav-link" href="#">BLOG</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">BRANDS</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">ABOUT US</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </IconContext.Provider>

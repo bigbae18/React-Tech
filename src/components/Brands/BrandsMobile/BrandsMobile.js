@@ -4,7 +4,7 @@ const BrandsMobile = () => {
         <div className="container">
             <h6 className="default-color">Our brands</h6>
             <div className="container">
-                <div className="row align-items-center px-auto">
+                <div className="row text-center px-auto">
                     <div className="col-6 p-3 brands">
                         <img srcSet="./assets/anex.png" alt="Anex Logo"/>
                     </div>

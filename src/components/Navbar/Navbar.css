@@ -2,6 +2,12 @@
     background-color: #FF723D;
     color: #fff;
 }
+.navbar {
+    background-color: #92D2D9;
+}
+.nav-link {
+    color: #fff;
+}
 .region-span {
     text-align: end;
 }
@@ -11,4 +17,21 @@
 .icons-nav > a {
     color: #fff;
     text-decoration: none;
+}
+.mobile-menu-icons > a, svg {
+    z-index: 10;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+}
+.nav-menu.active {
+    z-index: 9;
 }

@@ -16,12 +16,18 @@ const MobileNavbar = () => {
 
                 <div className="d-flex flex-row justify-content-between text-center m-2">
 
-                    <div className="d-inline-flex align-items-center justify-content-between" onClick={handleIconMenuClick}>
-                        {clicked ? <FaTimes /> : <FaBars />}
+                    <div className="d-inline-flex align-items-center justify-content-between mobile-menu-icons" onClick={handleIconMenuClick}>
+                        {clicked ? <FaTimes color="#000" /> : <FaBars />}
                         <a href="#">
-                            <img src="./assets/white-logo.png" alt="Daitool logo" width="75%" height="75%" />
+                            <img src={clicked ? "./assets/logo.png" : "./assets/white-logo.png"} alt="Daitool logo" width="75%" height="75%" />
                         </a>
+                        <div className={"w-75 h-100 " + (clicked ? "nav-menu visible active" : "nav-menu invisible")}>
+                            {/*
+                                Hamburger Menu
+                            */}
+                        </div>
                     </div>
+                    
 
                     <div className="icons-nav d-inline-flex align-items-center flex-row justify-content-around">
                         <a href="#">
@@ -34,7 +40,7 @@ const MobileNavbar = () => {
 
                 </div>
 
-                <div className="d-flex flex-row justify-content-center align-items-center w-75 m-auto pt-1">
+                <div className="d-flex flex-row justify-content-center align-items-center m-auto pt-1">
                     <div className="input-group">
                         <input type="search" placeholder="Search" className="form-control rounded" aria-descrbedby="searchbar" aria-label="Search" />
                         <div className="input-group-text">
