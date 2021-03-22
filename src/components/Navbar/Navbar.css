@@ -1,0 +1,14 @@
+.header-container {
+    background-color: #FF723D;
+    color: #fff;
+}
+.region-span {
+    text-align: end;
+}
+.icon-menu {
+    color: #fff;
+}
+.icons-nav > a {
+    color: #fff;
+    text-decoration: none;
+}

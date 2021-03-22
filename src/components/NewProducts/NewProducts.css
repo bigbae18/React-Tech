@@ -1,0 +1,40 @@
+.carousel-products-item {
+    height: 36rem;
+    color: #fff;
+    position:relative;
+    background-color: #111;
+}
+.overlay-image {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+.overlay-image1 {
+    background-image:url(./assets/home1.png);
+}
+.overlay-image2 {
+    background-image:url(./assets/home2.jpg);
+}
+.overlay-image3 {
+    background-image:url(./assets/home3.jpg);
+}      
+.new-product-link {
+    color: #FF723D
+}
+.new-product-link:hover {
+    color: #FF723D
+}
+.carousel-containers > h1 {
+    font-weight: normal;
+    font-size: 3em;
+}
+.carousel-containers > h4 {
+    font-weight: normal;
+    font-size: 2em;
+}
